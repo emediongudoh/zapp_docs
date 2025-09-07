@@ -112,6 +112,11 @@
   --sidebar-ring: oklch(0.556 0 0);
 }
 
+@theme {
+  --color-light-background: #e6e6e6;
+  --color-zapp: #0069a8;
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;
